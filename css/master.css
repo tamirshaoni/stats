@@ -1,0 +1,51 @@
+body{
+  background-color: hsl(233, 47%, 7%);
+  font-size: 15px;
+  text-align: center;
+  /*attribution a { color: hsl(228, 45%, 44%); }*/
+
+}
+.card{
+  margin-top: 200px;
+  background-color: hsl(244, 38%, 16%);
+  width: 1440px;
+  height: 446px;
+  border-radius: 5px;
+  display: inline-block;
+  position: relative;
+  text-align: center;
+}
+.text{
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  margin-left: 200px;
+  font-family: 'Inter', sans-serif;
+  text-align: left;
+
+}
+img{
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+h1{
+  font-size: 42px;
+  font-weight: 700;
+  color: white;
+  font-family: 'Inter', sans-serif;
+}
+h4{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 12px;
+}
+.overlay{
+  background-color: hsl(283, 100%, 21%);
+  opacity: 60%;
+  width: 540px;
+  height: 446px;
+  position: absolute;
+  right: 0;
+}
